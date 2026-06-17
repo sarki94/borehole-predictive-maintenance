@@ -1,0 +1,48 @@
+# === DATA ===
+# The raw dataset is too large for GitHub — download from Kaggle (see README)
+data/pump_sensor.csv
+data/*.csv
+data/*.zip
+
+# === OUTPUTS ===
+# Keep figures and reports but ignore large model binaries
+outputs/trained_models/*.pkl
+outputs/trained_models/*.json
+outputs/trained_models/*.bin
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === JUPYTER ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === ENVIRONMENTS ===
+.env
+.venv
+env/
+venv/
+*.env
+
+# === EDITORS ===
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# === LOGS ===
+*.log
+logs/
