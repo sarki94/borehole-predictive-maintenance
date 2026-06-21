@@ -1,0 +1,23 @@
+{
+  "n_raw": 50,
+  "n_rolling": 300,
+  "n_diff": 50,
+  "n_total_before_pca": 400,
+  "n_pca_components": 116,
+  "windows": [
+    5,
+    15
+  ],
+  "stats": [
+    "mean",
+    "std",
+    "max"
+  ],
+  "top5_sensors": [
+    "sensor_10",
+    "sensor_04",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13"
+  ]
+}

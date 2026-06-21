@@ -1,0 +1,42 @@
+{
+  "n_rows": 220320,
+  "n_sensors": 52,
+  "duration_days": 152,
+  "sampling_min": 12,
+  "time_start": "2018-04-01",
+  "time_end": "2018-08-31",
+  "class_counts_3": {
+    "NORMAL": 205836,
+    "RECOVERING": 14477,
+    "BROKEN": 7
+  },
+  "class_pct_3": {
+    "NORMAL": 93.43,
+    "RECOVERING": 6.57,
+    "BROKEN": 0.0
+  },
+  "class_counts_binary": {
+    "NORMAL": 205836,
+    "FAULT": 14484
+  },
+  "class_pct_binary": {
+    "NORMAL": 93.43,
+    "FAULT": 6.57
+  },
+  "sensors_to_drop": [
+    "sensor_15",
+    "sensor_50"
+  ],
+  "good_sensors": [
+    "sensor_00",
+    "sensor_01",
+    "sensor_02",
+    "sensor_03"
+  ],
+  "high_corr_pairs": 19,
+  "target_col": "fault_label",
+  "label_map": {
+    "NORMAL": 0,
+    "FAULT": 1
+  }
+}

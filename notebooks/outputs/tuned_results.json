@@ -1,0 +1,60 @@
+{
+  "Random Forest": {
+    "f1_fault": 0.936,
+    "f1_macro": 0.9658,
+    "precision": 0.8922,
+    "recall": 0.9844,
+    "roc_auc": 0.9995,
+    "pr_auc": 0.9904,
+    "best_params": {
+      "n_estimators": 300,
+      "max_depth": 20,
+      "min_samples_leaf": 2,
+      "class_weight": "balanced_subsample"
+    },
+    "threshold": 0.36999999999999994
+  },
+  "XGBoost": {
+    "f1_fault": 0.9284,
+    "f1_macro": 0.9616,
+    "precision": 0.8674,
+    "recall": 0.9985,
+    "roc_auc": 0.9996,
+    "pr_auc": 0.9936,
+    "best_params": {
+      "n_estimators": 200,
+      "max_depth": 7,
+      "learning_rate": 0.1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "threshold": 0.07
+  },
+  "SVM": {
+    "f1_fault": 0.972,
+    "f1_macro": 0.9851,
+    "precision": 0.9806,
+    "recall": 0.9635,
+    "roc_auc": 0.9997,
+    "pr_auc": 0.9955,
+    "best_params": {
+      "C": 1,
+      "gamma": "scale",
+      "note": "threshold-tuned only"
+    },
+    "threshold": 0.84
+  },
+  "Isolation Forest": {
+    "f1_fault": 0.0941,
+    "f1_macro": 0.0636,
+    "precision": 0.05,
+    "recall": 0.7871,
+    "roc_auc": 0.2905,
+    "pr_auc": 0.0536,
+    "best_params": {
+      "contamination": 0.4,
+      "n_estimators": 200
+    },
+    "threshold": "N/A (unsupervised)"
+  }
+}

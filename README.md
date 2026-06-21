@@ -25,6 +25,7 @@ conditions **before failure occurs**, enabling proactive maintenance scheduling.
 
 ```
 borehole-predictive-maintenance/
+
 │
 ├── data/                          # ← Put pump_sensor.csv here (see Download)
 │   └── README.md
@@ -156,19 +157,6 @@ jupyter nbconvert --to notebook --execute notebooks/02_preprocessing.ipynb
 
 ---
 
-## References
 
-Breiman, L. (2001). Random forests. *Machine Learning, 45*(1), 5–32.  
-Chen, T., & Guestrin, C. (2016). XGBoost. *KDD '16*, 785–794.  
-Chawla, N. V. et al. (2002). SMOTE. *JAIR, 16*, 321–357.  
-Cortes, C., & Vapnik, V. (1995). Support-vector networks. *ML, 20*(3), 273–297.  
-Jardine, A. K. S. et al. (2006). *MSSP, 20*(7), 1483–1510.  
-Lei, Y. et al. (2018). Machinery health prognostics. *MSSP, 104*, 799–834.  
-Liu, F. T. et al. (2008). Isolation forest. *ICDM 2008*, 413–422.  
-WHO/UNICEF JMP. (2023). *Progress on WASH 2000–2022*. WHO & UNICEF.  
 
----
 
-## License
-
-MIT License — see `LICENSE` for details.
