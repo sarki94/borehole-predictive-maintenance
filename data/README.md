@@ -11,7 +11,7 @@ Place `pump_sensor.csv` in this folder before running any notebook.
 
 ```
 data/
-└── pump_sensor.csv   (~19 MB, 220,320 rows × 54 columns)
+└── pump_sensor.csv   (~119 MB, 220,320 rows × 54 columns)
 ```
 
 The CSV is excluded from this repository via `.gitignore`.

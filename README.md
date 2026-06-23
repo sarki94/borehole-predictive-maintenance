@@ -2,9 +2,7 @@
 # ML-based Predictive Maintenance for Rural Borehole Water Pumps in Northern Nigeria
 ### A Comparative Machine Learning Study on IoT Multi-Sensor Data
 
-**Course:** COEN807 — Machine Learning  
-**Institution:** Ahmadu Bello University, Zaria — Department of Computer Engineering  
-**Track:** Supervised Learning — Multi-class Classification  
+
 
 ---
 
@@ -31,12 +29,12 @@ borehole-predictive-maintenance/
 │   └── README.md
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb               # Exploratory Data Analysis → Report §III
-│   ├── 02_preprocessing.ipynb     # Cleaning & Imputation    → Report §IV (a)
-│   ├── 03_feature_engineering.ipynb # Feature Engineering   → Report §IV (b)
-│   ├── 04_model_training.ipynb    # Baseline Models         → Report §V
-│   ├── 05_hyperparameter_tuning.ipynb # Tuning             → Report §VI
-│   └── 06_evaluation.ipynb        # Results & Comparison    → Report §VII–VIII
+│   ├── 01_eda.ipynb               # Exploratory Data Analysis 
+│   ├── 02_preprocessing.ipynb     # Cleaning & Imputation    
+│   ├── 03_feature_engineering.ipynb # Feature Engineering  
+│   ├── 04_model_training.ipynb    # Baseline Models         
+│   ├── 05_hyperparameter_tuning.ipynb # Tuning             
+│   └── 06_evaluation.ipynb        # Results & Comparison    
 │
 ├── src/
 │   ├── preprocess.py              # Reusable preprocessing functions
@@ -84,7 +82,7 @@ kaggle datasets download -d nphantawee/pump-sensor-data --unzip -p data/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/borehole-predictive-maintenance.git
+git clone https://github.com/sarki94/borehole-predictive-maintenance.git
 cd borehole-predictive-maintenance
 
 # 2. Create and activate the conda environment
@@ -144,16 +142,8 @@ jupyter nbconvert --to notebook --execute notebooks/02_preprocessing.ipynb
 
 ---
 
-## Key Results
 
-*(Populated after running all notebooks)*
 
-| Model | F1-BROKEN | F1-macro | PR-AUC |
-|-------|-----------|----------|--------|
-| Random Forest | — | — | — |
-| XGBoost | — | — | — |
-| SVM | — | — | — |
-| Isolation Forest | — | — | — |
 
 ---
 
